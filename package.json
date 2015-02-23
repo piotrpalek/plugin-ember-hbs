@@ -1,0 +1,27 @@
+{
+  "name": "plugin-ember-hbs",
+  "description": "SystemJS plugin for Ember Handlebars",
+  "version": "1.10.0",
+  "keywords": [],
+  "main": "hbs.js",
+  "files": ["hbs.js", "ember.js"],
+  "author": {
+    "name": "n-fuse GmbH",
+    "email": "info@n-fuse.de",
+    "url": "www.n-fuse.de"
+  },
+  "contributors": [],
+  "license": {
+    "type": "MIT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/n-fuse/plugin-ember-hbs"
+  },
+  "dependencies": {
+    "ember-template-compiler": "github:n-fuse/ember-template-compiler@1.10.0"
+  },
+  "jspm": {
+    "format": "es6"
+  }
+}
