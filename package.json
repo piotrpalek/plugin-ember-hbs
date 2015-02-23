@@ -18,10 +18,10 @@
     "type": "git",
     "url": "git://github.com/n-fuse/plugin-ember-hbs"
   },
-  "dependencies": {
-    "ember-template-compiler": "github:n-fuse/ember-template-compiler@1.10.0"
-  },
   "jspm": {
-    "format": "es6"
+    "format": "es6",
+    "dependencies": {
+      "ember-template-compiler": "github:n-fuse/ember-template-compiler@1.10.0"
+    }
   }
 }
