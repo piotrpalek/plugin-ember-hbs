@@ -4,7 +4,7 @@ SystemJS plugin for Ember Handlebars
 
 ### Installation
 ```
-jspm install hbs=github:n-fuse/plugin-ember-hbs
+jspm install hbs=github:n-fuse/plugin-ember-hbs@your-ember-version
 ```
 ### Usage
 
