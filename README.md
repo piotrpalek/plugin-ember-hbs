@@ -32,24 +32,5 @@ Ember.Component.create({
 
 ```
 
-#### Import compiled template and add to Ember.TEMPLATES
-
-Adds the imported template to Ember.TEMPLATES using the filename as the
-template name.
-
-```javascript
-// Map plugin
-System.config({
-  map: {
-    ehbs: "github:n-fuse/plugin-ember-hbs/ember"
-  }
-});
-```
-
-```javascript
-import from './index.hbs!ehbs';
-Ember.TEMPLATES.index; // contains template
-```
-
 ###License
 [MIT license](LICENSE.txt)
