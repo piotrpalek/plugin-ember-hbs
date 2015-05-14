@@ -1,9 +1,9 @@
 {
   "name": "plugin-ember-hbs",
   "description": "SystemJS plugin for Ember Handlebars",
-  "version": "1.12.0-beta.3",
+  "version": "1.13.0-beta.1",
   "keywords": [],
-  "main": "hbs.js",
+  "main": "plugin-ember-hbs.js",
   "author": {
     "name": "n-fuse GmbH",
     "email": "info@n-fuse.de",
@@ -20,7 +20,7 @@
   "jspm": {
     "format": "es6",
     "dependencies": {
-      "ember-template-compiler": "github:n-fuse/ember-template-compiler@1.12.0-beta.3"
+      "ember-template-compiler": "github:n-fuse/ember-template-compiler@1.13.0-beta.1"
     }
   }
 }

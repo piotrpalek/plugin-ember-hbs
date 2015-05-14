@@ -1,14 +1,17 @@
 # plugin-ember-hbs
 
-SystemJS plugin for Ember Handlebars
+SystemJS plugin for Ember Handlebars.
 
 ### Installation
-```
+
+```bash
 jspm install hbs=github:n-fuse/plugin-ember-hbs@your-ember-version
 ```
+
 ### Usage
 
-Note: This plugin imports Ember from the `ember` namespace. So it has to be mapped in your `System.config`
+Note: This plugin imports Ember from the `ember` namespace.
+So it has to be mapped in your `System.config`
 
 ```javascript
 System.config({
@@ -32,5 +35,6 @@ Ember.Component.create({
 
 ```
 
-###License
+### License
+
 [MIT license](LICENSE.txt)
