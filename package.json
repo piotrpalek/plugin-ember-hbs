@@ -1,7 +1,7 @@
 {
   "name": "plugin-ember-hbs",
   "description": "SystemJS plugin for Ember Handlebars",
-  "version": "1.13.7",
+  "version": "1.13.8",
   "keywords": [],
   "main": "plugin-ember-hbs.js",
   "author": {
@@ -20,7 +20,7 @@
   "jspm": {
     "format": "es6",
     "dependencies": {
-      "ember-template-compiler": "github:n-fuse/ember-template-compiler@1.13.7"
+      "ember-template-compiler": "github:n-fuse/ember-template-compiler@1.13.8"
     }
   }
 }
