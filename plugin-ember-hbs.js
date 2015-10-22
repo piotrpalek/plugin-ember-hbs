@@ -7,5 +7,5 @@ export var translate = function(load) {
     console.log(`Compiling template: ${load.address}`);
   }
   var template = EmTC.precompile(load.source, false);
-  return `import Em from 'ember';\nexport default Em.HTMLBars.template(${template});`;
+  return `var Em = require('ember');\nmodule.exports = Em.HTMLBars.template(${template});`;
 };
